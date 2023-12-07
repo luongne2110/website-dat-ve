@@ -1,0 +1,26 @@
+{% extends 'flight/layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Điều khoản và Điều kiện | Chuyến bay</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+        <img src="{% static 'img/about-us.png' %}" alt="Privacy Policy" class="privacybannerimg">
+    </section>
+    <section class="section section1">
+        <div class="container">
+            <h1>Chúng tôi quản lý chuyến đi của bạn, vì vậy bạn có thể sống ở điểm đến.</h1>
+            <p>Trở lại những năm 90, đặt vé có nghĩa là phải đi đến tận sân bay và xếp hàng dài ở sân bay để chờ đến lượt. Sau đó, internet xuất hiện và mọi thứ đã thay đổi. Mọi người có thể đặt vé trực tuyến. Bất chấp những hạn chế đang diễn ra, du lịch đã trở nên hợp lý hơn bao giờ hết. Năm 2018 chứng kiến ​​khoảng 2 tỷ chuyến đi của du khách Ấn Độ.</p>
+            <p>Tuy nhiên, trải nghiệm du lịch hầu như không thay đổi - du lịch vẫn còn hỗn loạn và không chắc chắn. Người ta vẫn có những chuyến đi tồi tệ.</p>
+            <p>Chúng tôi phát hiện ra rằng điều này phần lớn là do sự bất cân xứng thông tin. Khách du lịch thường phải làm việc chăm chỉ để tìm thông tin liên quan đến chuyến đi của họ. Du lịch rất giàu thông tin, nhưng thông tin lại nằm ở các bên liên quan khác nhau và thường không đến được với khách du lịch kịp thời - do đó dẫn đến sự thất vọng, tức giận và khó chịu..</p>
+            <p>Ngày nay, chúng ta đặt chỗ mà không có ý tưởng rõ ràng về chuyến đi của mình sẽ như thế nào - chúng ta sẽ rời nhà lúc mấy giờ, chúng ta sẽ đến nơi vào lúc nào và chúng ta sẽ cảm thấy thoải mái như thế nào khi thực hiện chuyến đi này. Vào ngày đi, chúng tôi vẫn loay hoay tìm taxi, lo lắng khi gặp tắc đường và chạy đến cổng lên máy bay để đến nơi đúng giờ..</p>
+            <p>Chúng tôi cảm thấy rằng phải có một cách tốt hơn. Vì vậy, chúng tôi đã xây dựng Blinctrip - trợ lý du lịch cá nhân theo dõi trải nghiệm chuyến đi của bạn và cung cấp thông tin phù hợp cho bạn vào đúng thời điểm. Nghĩa là không chạy nữa.</p>
+            <p>Mục tiêu của chúng tôi là giúp bạn có một chuyến đi tuyệt vời mỗi lần. Chúng tôi sẽ làm điều đó.</p>
+        </div>
+    </section>
+{% endblock%}

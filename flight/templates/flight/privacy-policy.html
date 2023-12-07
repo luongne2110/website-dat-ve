@@ -1,0 +1,27 @@
+{% extends 'flight/layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Chính sách bảo mật | Chuyến bay</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+            <img src="{% static 'img/privacy-policy.png' %}" alt="Privacy Policy" class="privacybannerimg">
+    </section>
+    <section class="section section1">
+        <div class="container">
+            <p>
+                Công ty TNHH Lập kế hoạch chuyến bay (sau đây “<b>  </b>”) hiểu mối quan tâm quý giá của khách hàng về quyền riêng tư và thực hiện một số biện pháp bảo vệ và duy trì thông tin cá nhân của họ đang được chia sẻ với chúng tôi.
+            </p>
+            <p>
+                Khả năng áp dụng của Chính sách quyền riêng tư này mở rộng cho Người dùng có yêu cầu hoặc có ý định mua hoặc mua (các) sản phẩm hoặc (các) dịch vụ do Flight-web-app.herokuapp.com cung cấp. thông qua bất kỳ kênh trực tuyến nào của mình bao gồm trang web, trang web dành cho thiết bị di động, ứng dụng dành cho thiết bị di động và các kênh ngoại tuyến bao gồm trung tâm cuộc gọi và văn phòng (sau đây gọi chung là "Kênh bán hàng"). Vì mục đích của Chính sách quyền riêng tư này, Trang web có nghĩa là (các) trang web, (các) trang web dành cho thiết bị di động và (các) ứng dụng dành cho thiết bị di động. Bằng cách sử dụng hoặc truy cập Trang web hoặc Kênh bán hàng khác, Người dùng đồng ý với các điều khoản của Chính sách quyền riêng tư này và nội dung trong đây. Nếu bạn không đồng ý với Chính sách quyền riêng tư này, vui lòng không sử dụng hoặc truy cập Trang web của chúng tôi hoặc các Kênh bán hàng khác.
+            </p>
+            <p>
+                Chính sách quyền riêng tư này không áp dụng cho bất kỳ trang web, trang web dành cho thiết bị di động và ứng dụng di động nào của bên thứ ba, ngay cả khi trang web/sản phẩm của họ được liên kết với Trang web của chúng tôi. Người dùng nên lưu ý rằng thông tin và các biện pháp bảo mật của các đối tác kinh doanh, nhà quảng cáo, nhà tài trợ hoặc các trang web khác của Flight-web-app.herokuapp.com cung cấp (các) siêu liên kết, có thể khác biệt đáng kể so với Chính sách quyền riêng tư này. Theo đó, Người dùng nên xem lại các chính sách và tuyên bố về quyền riêng tư của bất kỳ bên thứ ba nào mà họ tương tác..
+            </p>
+        </div>
+    </section>
+{% endblock%}
